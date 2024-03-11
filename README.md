@@ -10,8 +10,11 @@
 scene list
 
 title
+
 edit(make new & loaded map)
+
 play
+
 map list( 4X4)
 
 
