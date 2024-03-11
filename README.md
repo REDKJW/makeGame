@@ -2,7 +2,7 @@
 
 ##index
 1. save/load files -> /saveIO/
-2. main skeleton test -> /Skeleton/
+2. main skeleton test -> /gameSkeleton/
 
 -----------
 
