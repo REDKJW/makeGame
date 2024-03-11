@@ -7,15 +7,15 @@
 ----------------------------------------
 03-11
 
-scene list
+<scene list>
 
-title
+0 : title
 
-edit(make new & loaded map)
+1 : edit(make new & loaded map)
 
-play
+2 : play
 
-map list( 4X4)
+3 : map list( 4X4)
 
 
 프레임워크 폐기 -> 같은 속성의 다른 맵이 많을 경우(예를 들어, 스테이지 1234 등)가 아니라면 큰 의미 없고, 오히려 class가 상속과정에서 문제 일으킴
