@@ -3,7 +3,7 @@
 ##index
 1. save/load files -> /saveIO/
 2. main skeleton test -> /gameSkeleton/
-3. management button -> /Button/
+3. button  management -> /Button/
 
 -----------
 
