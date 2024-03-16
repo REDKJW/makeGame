@@ -49,13 +49,6 @@ public:
         //마우스 좌표 확인 시작
         WCHAR text[100];
         wsprintf(text, L" x : %d \t y : %d \t mouse : %b", pos.x, pos.y, LB_DOWN);
-        SIZE textSize;
-        GetTextExtentPoint32W(hdc, text, lstrlen(text), &textSize);
-        int textWidth = textSize.cx;
-        int textHeight = textSize.cy;
-
-        // 텍스트를 출력할 위치를 조정하여 오른쪽 하단 모서리로 이동
-
         TextOutW(hdc, 1000, 600, text, lstrlen(text));
          //마우스 좌표 확인 끝
 
